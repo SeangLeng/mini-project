@@ -2,13 +2,24 @@
     display: grid;
     justify-content: space-between;
     gap: 2rem;
-    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    animation: frombottom .7s ease-out;
+}
+
+@keyframes frombottom {
+    from {
+        transform: scale(0);
+        margin-bottom: 100%;
+    }to{
+        transform: scale(1);
+        margin-bottom: 0;
+    }
 }
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
 }
 main h1 {
     text-transform: uppercase;
@@ -20,6 +31,7 @@ form {
     gap: 1rem; 
 }
 input {
+    outline: none;
     padding: 1rem;
     border-radius: 5px;
     border: 1px solid black;

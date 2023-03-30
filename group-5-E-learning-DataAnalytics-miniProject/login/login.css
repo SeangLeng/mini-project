@@ -1,27 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
 
-
-body {
-    background: #eee !important;
-  }
-  
   .wrapper {
     margin: auto;
-    height: 100vh;
     justify-content: center;
     display: flex;
-    align-items: center 
+    align-items: center; 
   }
   
   .form-signin {
     width: 25%;
     padding: 15px 35px 45px;
     margin: 0 auto;
-    background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    animation: rotate 1s ease-in-out;
   }
+
+@keyframes rotate{
+   from {
+    transform: rotateY(360deg);
+    margin-top: -100%;
+    margin-bottom: 200%;
+   } to {
+    transform: rotate(0deg);
+    margin-bottom: 0;
+   }
+}
   .form-signin .form-signin-heading,
   .form-signin .checkbox {
     margin-bottom: 30px;
