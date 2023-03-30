@@ -84,6 +84,7 @@
     width: 100%;
 }
 section {
+    width: 70%;
     padding: 2rem 0;
     gap: 3rem;
 }
@@ -98,6 +99,9 @@ main {
         display: none;
     }
     #close {
+        display: none;
+    }
+    .course-part p {
         display: none;
     }
 }
