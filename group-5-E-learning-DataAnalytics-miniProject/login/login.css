@@ -13,7 +13,7 @@
     padding: 15px 35px 45px;
     margin: 0 auto;
     border-radius: 20px;
-    animation: rotate 1s ease-in-out;
+    animation: rotate 1.5s ease-in-out;
   }
 
 @keyframes rotate{
