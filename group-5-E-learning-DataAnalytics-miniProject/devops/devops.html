@@ -16,51 +16,141 @@
 </head>
 <body style="background: linear-gradient(112.68deg, #FFFFFF 0%, #DFD5F5 47.12%, #F1ECFB 99.99%, #7F56D8 100%);">
     <header>
-    <nav class="d-flex justify-content-around align-items-center navbar-expand-lg">
-        <div class="nav-part d-flex justify-content-center align-items-center">
-                <div class="logo d-flex justify-content-center align-items-center">
-                    <img src="/group-5-E-learning-DataAnalytics-miniProject/Homepage/Images/logo.png" alt="" width="100%">
-                
-                </div>
+        <nav class="d-lg-flex d-md-none d-sm-none d-flex justify-content-between align-items-center navbar-expand-lg">
+            <div class="nav-part d-flex justify-content-center align-items-center">
+                <a class="navbar-brand" href="../Homepage/index.html">
+                    <img src="../Homepage/Images/logo.png" alt="Avatar Logo" style="width:100px;" class="rounded-pill">
+                </a>
                 <h1>MySeksaa</h1>
-                <form class="form-inline my-2 my-lg-0 d-flex w-50">
+                <form class="form-inline my-2 my-lg-0 d-flex w-50 m-4">
                     <input class="form-control mr-sm-2" type="search" placeholder="Want to learn?" aria-label="Search">
                     <button class="btn" type="submit">Search</button>
                 </form>
             </div>
-            <div class="nav-contaner d-flex justify-content-center align-items-center">
+            <div class="nav-contaner d-flex justify-content-center align-items-center d-sm-none d-lg-block d-xl-block">
                 <div class="manu d-flex justify-content-center align-items-center">
-                    <a href="/group-5-E-learning-DataAnalytics-miniProject/Homepage/index.html">HOME</a>
+                    <a href="../Homepage/index.html">HOME</a>
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            GATEGORY
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../webdesign/getegory.html">Web-design</a></li>
-                                <li><a class="dropdown-item" href="../UXUI/UXUI.html">User Experience (UX) Design </a></li>
-                                <li><a class="dropdown-item" href="../search-engine/search-engine.html">Search Engine Optimization (SEO)</a></li>
-                                <li><a class="dropdown-item" href="../search-engine/search-engine.html">Search Content Marketing</a></li>
-                                <li><a class="dropdown-item" href="../digital-marketing/digital-marketing.html">Digital Marketing</a></li>
-                                <li><a class="dropdown-item" href="../websecurity/websecurity.html">Web Security</a></li>
-                                <li><a class="dropdown-item" href="../data-analytics/data-analytic.html">Web Analytics</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    GATEGORY
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="../webdesign/getegory.html">Web-design</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../UXUI/UXUI.html">User Experience (UX) Design
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../search-engine/search-engine.html">Search Engine Optimization (SEO)</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../search-engine/search-engine.html">Search Content Marketing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../digital-marketing/digital-marketing.html">Digital Marketing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../websecurity/websecurity.html">Web Security</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../data-analytics/data-analytic.html">Web Analytics</a>
+                                    </li>
                                 </ul>
-                        </li>
+                            </li>
                         </ul>
                     </div>
                     <a href="#about">ABOUT</a>
-                    <a href="#contact_us">CONTACT US</a>
-                    <a href="#log_in">LOG IN</a>
-                    <a href="#sign_up" id="sign-up">SIGN UP</a>
+                    <a href="#contact_us">CONTACTUS</a>
+                    <a href="#log_in">LOGIN</a>
+                    <a href="#sign_up" id="sign-up">SIGNUP</a>
                 </div>
-            </div>  
+            </div>
+            <div class="navbar-man-icon d-sm-block d-lg-none">
+                <i class="fa-solid fa-bars fs-1"></i>
+            </div>
         </div>
     </nav>
-
+    <nav class="navbar bg-body-tertiary fixed-top" id="nav-respond">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="../Homepage/Images/logo.png" alt="Avatar Logo" style="width:100px;" class="rounded-pill">
+                </a>
+                <h1>MySeksaa</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MySeksaa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Homepage/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                GATEGORY
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="../webdesign/getegory.html">Web-design</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../UXUI/UXUI.html">User Experience (UX) Design
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../search-engine/search-engine.html">Search Engine Optimization (SEO)</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../search-engine/search-engine.html">Search Content Marketing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../digital-marketing/digital-marketing.html">Digital Marketing</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../websecurity/websecurity.html">Web Security</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../data-analytics/data-analytic.html">Web Analytics</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../webdesign/getegory.html">Gategory</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">ABOUT US</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">LOG IN</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">SIGN UP</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>
     <main >
-        <section class="page1 d-flex justify-content-between align-items-start p-5 gap-5 position-relative">
+        <section class="page1 d-flex justify-content-between align-items-start gap-5 position-relative">
             <div class="gategory-left-part">
                 <div class="manu-course-list">
                     <h2 class="fw-bold">GATEGORY</h2>
