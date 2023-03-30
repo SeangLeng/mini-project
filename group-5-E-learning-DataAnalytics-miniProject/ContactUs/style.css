@@ -17,8 +17,8 @@ body {
 }
 
 .cards {
-  width: 70%;
-  min-width: 90%;
+  width: 60%;
+  max-width: 95%;
   padding: 2rem;
   background-color: #D9D9D9CC;
   border-radius: 20px;
