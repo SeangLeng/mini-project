@@ -111,7 +111,7 @@ main section h1 {
 } 
 .page1-part1 img {
     width: 130%;
-    animation: moving 10s infinite ease; 
+    animation: moving 8s infinite ease; 
 }
 @keyframes moving {
     0% {
@@ -230,8 +230,12 @@ main section h1 {
 .container-course {
     width: 50%;
 }
+.row {
+    margin: 0 !important;
+    padding: 1rem;
+}
 .card:hover {
-    transform: translate(4%, -4%);
+    transform: translate(0%, -4%);
 }
 #nav-respond {
         display: none;
@@ -239,14 +243,13 @@ main section h1 {
 #nav-1 {
     display: block;
 }
-@media screen and (max-width: 992px){
-    
+@media screen and (max-width: 920px){
     #scholarship {
         width: 100%;
+        margin-bottom: 10px;
     }
-    .row {
-        padding: 5%;
-    }
+}
+@media screen and (max-width: 1350px){
     .container-course {
         width: 100%;
     }
@@ -257,6 +260,7 @@ main section h1 {
         display: none;
     }
 }
+
 @media screen and (max-width: 400px){
     
     #scholarship {

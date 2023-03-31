@@ -67,11 +67,11 @@ hr{
 }
 .container .item button{
     margin-top: 10px;
-    width: 120px;
-    height: 37px;
     text-transform: uppercase;
+    width: 40%;
     color: white;
     font-size: 17px;
+    padding: 2px;
     border-radius: 20px;
     letter-spacing: 1px;
     border: none;
@@ -89,6 +89,13 @@ hr{
 
 ul {
     list-style: none; 
+}
+.item ul{
+    margin-top: 1.5rem;
+}
+
+.item ul li{
+    margin-top: .5rem;
 }
 ul li a{
     text-decoration: none;
